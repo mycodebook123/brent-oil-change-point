@@ -1,0 +1,43 @@
+:root {
+  --color-bg: #EEF1EE;
+  --color-panel: #FFFFFF;
+  --color-ink: #12211C;
+  --color-ink-muted: #55655F;
+  --color-border: #DCE3DD;
+  --color-primary: #1B4B43;
+  --color-primary-soft: #E4EDE9;
+  --color-changepoint: #B23A48;
+  --color-conflict: #A94438;
+  --color-geopolitical: #7A5C8E;
+  --color-market: #3A6EA5;
+  --color-economic: #55655F;
+  --color-opec: #C77D2E;
+  --color-sanctions: #6B7A3A;
+
+  --font-display: 'Space Grotesk', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+button, input, select {
+  font-family: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
