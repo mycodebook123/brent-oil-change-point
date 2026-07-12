@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+
+# Data (optional - keep raw data out of git if large; comment out if you want it tracked)
+# data/*.csv
+
+# IDE
+.vscode/*
+!.vscode/settings.json
+
+# Dashboard
+node_modules/
+dashboard/frontend/build/
+dashboard/backend/__pycache__/
